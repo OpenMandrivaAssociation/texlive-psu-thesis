@@ -53,6 +53,7 @@ bibliography.
 %doc %{_texmfdistdir}/doc/latex/psu-thesis/mssample.tex
 %doc %{_texmfdistdir}/doc/latex/psu-thesis/phdsample.pdf
 %doc %{_texmfdistdir}/doc/latex/psu-thesis/phdsample.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ bibliography.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
