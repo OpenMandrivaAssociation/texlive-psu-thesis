@@ -9,7 +9,7 @@ Version:	1.1
 Release:	12
 Summary:	Package for writing a thesis at Penn State University
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/psu-thesis
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/psu-thesis
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/psu-thesis.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/psu-thesis.doc.tar.xz
